@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: rhtap-sample-devfile-sample-python-basic-xtu5
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/rhn-support-rick-tenant/rhtap-sample-devfile-sample-python-basic-1/rhtap-sample-devfile-sample-python-basic-xtu5@sha256:6380292324caa0c4604db7d3da2d8230c337b616a9b86ba9f318952baf126c53
+        name: my-python
+        resources: {}
+status: {}
