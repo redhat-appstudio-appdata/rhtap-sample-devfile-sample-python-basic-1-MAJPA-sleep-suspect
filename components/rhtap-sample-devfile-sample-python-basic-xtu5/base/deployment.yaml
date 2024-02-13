@@ -10,7 +10,7 @@ metadata:
     app.kubernetes.io/part-of: rhtap-sample-devfile-sample-python-basic-1
   name: rhtap-sample-devfile-sample-python-basic-xtu5
 spec:
-  replicas: 1
+  replicas: 0
   revisionHistoryLimit: 0
   selector:
     matchLabels:
